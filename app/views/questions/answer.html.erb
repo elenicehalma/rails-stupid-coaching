@@ -4,16 +4,17 @@
 <br>
 <br>
 <h2>Stupid Coaching</h2>
-<div>
-  <p><%= @question %></p>
-  <p>- You</p>
-</div>
+<body>
+  <div>
+    <p><%= @question %></p>
+    <p>- You</p>
+  </div>
 
-<div>
-  <p><%= @answer %></p>
-  <p>- Your coach</p>
-</div>
+  <div>
+    <p><%= @answer %></p>
+    <p>- Your coach</p>
+  </div>
 
-<%= link_to "Ask a new question", ask_path %>
-
+  <a href=""><%= link_to "Ask a new question", ask_path %></a>
+</body>
 
